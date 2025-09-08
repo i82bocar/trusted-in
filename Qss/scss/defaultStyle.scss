@@ -1,0 +1,519 @@
+
+//===================================================//
+// FILE AUTO-GENERATED. PUT YOUR DEFAULT STYLES HERE. 
+// THESE STYLES WILL OVERIDE THE THEME STYLES
+//====================================================//
+
+$GRADIENT_DARK: qlineargradient(
+    x1:0, y1:0, x2:1, y2:0.869,
+    stop:0 $GREY_DARK,
+    stop:0.255 $GREY_DEEPEST,
+    stop:0.87 $GREY_DEEPEST,
+    stop:1 $GREY_DARK
+);
+
+$GRADIENT_DARK2: qlineargradient(
+    x1:0, y1:0, x2:1, y2:1,
+    stop:0 rgba($CB1_R, $CB1_G, $CB1_B, 255),
+    stop:0.485294 rgba($CB4_R, $CB4_G, $CB4_B, 255),
+    stop:0.985294 rgba($CB1_R, $CB1_G, $CB1_B, 255),
+    stop:1 rgba(44, 47, 49, 255)
+);
+
+
+$BORDER_GREY: 1px solid $GREY_DARK;
+
+$DANGER: #FF5252;
+$WARNING: #daa508;
+$SAFE: #4CAF50;
+
+
+QLabel, QWidget{
+    background-color: transparent;
+}
+
+QPushButton, QLineEdit{
+    padding: 7px 10px;
+    // min-height: 25px;
+    background: $GREY_DARK;
+    border: $BORDER_GREY;
+    border-radius: 10px;
+}
+QLineEdit, QComboBox, QDateEdit, QPlainTextEdit {
+    border-width: 3px;
+    background-color: qlineargradient(
+        x1:0, y1:0.574, x2:1, y2:0.42,
+        stop:0 rgba($CT1_R, $CT1_G, $CT1_B, 48),
+        stop:0.254902 rgba($CT1_R, $CT1_G, $CT1_B, 48),
+        stop:0.647059 rgba($CT1_R, $CT1_G, $CT1_B, 124),
+        stop:1 rgba($CT1_R, $CT1_G, $CT1_B, 48)
+    );
+
+    border-bottom-color: qlineargradient(
+        x1:0, y1:0.488636, x2:1, y2:0.614,
+        stop:0.132353 rgba(0, 0, 0, 0), 
+        stop:0.362745 rgba($CA4_R, $CA4_G, $CA4_B, 255),
+        stop:0.519608 rgba($CA1_R, $CA1_G, $CA1_B, 255),
+        stop:0.656863 rgba(13, 149, 116, 255),
+        stop:0.808824 rgba($CA3_R, $CA3_G, $CA3_B, 255),
+        stop:0.941176 rgba($CA3_R, $CA3_G, $CA3_B, 0)
+    );
+}
+
+
+QCustomHorizontalSeparator, QCustomVerticalSeparator{
+    color: $GREY_DARK;
+}
+
+QCustomCheckBox{
+	// max-height: 10px;
+	// height: 10px;
+	background-color: transparent;
+	qproperty-activeColor: $COLOR_ACCENT_1;
+}
+QCustomComponentLoader{
+    background-color: transparent;
+}
+QStackedWidget{
+    background-color: transparent;
+    & > QWidget{
+        background-color: transparent;
+        background: none;
+    }
+}
+QSlider {
+    /* General slider settings */
+    background: transparent;
+}
+
+QSlider::groove:horizontal {
+    height: 4px;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+    width: 14px;
+    height: 14px;
+    margin: -5px 0;
+    border-radius: 7px;
+}
+
+QSlider::sub-page:horizontal {
+    border-radius: 2px;
+}
+
+#CustomMainWindow{
+    #centralwidget{
+        border-image: url(#{$RELATIVE_FOLDER}assets/images/BG3.png) 0 0 0 0 stretch stretch;
+        #mainBodyPages{
+            background-color: transparent;
+            border: none;
+            & > QWidget {
+                background-color: rgba($CB1_R, $CB1_G, $CB1_B, 180);
+                border: none;
+                border-radius: 20px;
+            }
+        }
+        #loginComponentLoader, #welcomeComponentLoader, #sideBarComponentLoader, #dashboardComponentLoader, #footerComponentLoader{
+            background-color: transparent;
+            border: none;
+        }
+    }
+}
+
+#LoginFormComponent{
+    background-color: transparent;
+    #accountPages{
+        background-color: transparent;
+        border: none;
+        & > QWidget{
+            background-color: transparent;
+        }
+        & > QWidget > QWidget{
+            background-color: $GRADIENT_DARK;
+            border-radius: 20px;
+            border: $BORDER_GREY;
+        }
+    }
+    QFrame{
+        background-color: transparent;
+        background: transparent;
+    }
+    #header, #header_2, #header_3, #header_4{
+        QLabel{
+            background-color: transparent;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+    QPushButton{
+        // background-color: transparent;
+        border: none;
+    }
+    #loginBtn, #registerBtn, #recoveryMailBtn, #verifyTokenBtn, #resetPassBtn{
+        background-color: $COLOR_ACCENT_3;
+        font-weight: bold;
+    }
+}
+
+#WelcomeComponent{
+    background-color: $GRADIENT_DARK;
+    border-radius: 20px;
+    border: $BORDER_GREY;
+    QWidget{
+        background-color: transparent;
+    }
+    #fingerprint, #lock{
+        background-color: $GRADIENT_DARK2;
+        border-radius: 75px;
+        border: 3px solid $GREY_DARK;
+    }
+    #frame_2{
+        QPushButton{
+            background-color: transparent;
+            border: none;
+        }
+    }
+}
+
+CustomModal, QCustomComponent, QCustomComponentContainer{
+    background-color: transparent;
+}
+
+#NotificationModal, #LoadingModal {
+    border-radius: 8px;
+    border: $BORDER_GREY;
+    background-color: $GRADIENT_DARK;
+    QWidget{
+        background-color: transparent;
+    }
+    #header{
+        font-weight: bold;
+        font-size: 14px;
+    }
+    #body{
+        // color: $COLOR_TEXT_3;
+    }
+    QPushButton{
+        padding: 8px 20px;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+    #cancelBtn{
+        background-color: $COLOR_ACCENT_3;
+    }
+    #okayBtn{
+        background-color: transparent;
+
+    }
+    #loadingProgressBar{
+        background-color: $COLOR_ACCENT_1;
+    }
+}
+
+#DashboardComponent, #VaultComponent, #GeneratorComponent, #SecurityScanComponent, #SettingsComponent, #UserComponent{
+    background-color: $GRADIENT_DARK2;
+    border-radius: 20px;
+    QFrame, QLabel{
+        background-color: transparent;
+    }
+    & > QWidget{
+        background-color: transparent;
+        * QFrame, * QLabel{
+            background-color: transparent;
+        }
+    }
+    #welcomeName{
+        font-size: 18px;
+        font-weight: bold;
+        background-color: transparent;
+        border: none;
+    }
+    #welcomeMessage{
+        color: $COLOR_TEXT_3;
+        background-color: transparent;
+        border: none;
+    }
+    #searchFrame{
+        background-color: $GREY_DARK;
+        border: 2px solid $GREY_DARK;
+        border-radius: 20px;
+        background-color: transparent;
+        border: none;
+        *{
+            background-color: transparent;
+            border: none;
+        }
+        QLineEdit, QPushButton{
+            padding: 0 0;
+        }
+    }
+    
+
+    // Cards
+    
+    & > QWidget {
+        background-color: transparent;
+        & > QWidget{
+            background: $GRADIENT_DARK;
+            border: $BORDER_GREY;
+            border-radius: 20px;
+            QFrame, QLabel{
+                background-color: transparent;
+                background: none;
+            }
+               
+            * QPushButton{
+                // background-color: $COLOR_BACKGROUND_3;
+                font-weight: bold;
+            }
+            
+        }
+    }
+    QCustomRoundProgressBar{
+        qproperty-progressColor: $COLOR_ACCENT_2;
+        qproperty-textColor: $COLOR_ACCENT_2;
+    }
+    #header{
+        *{
+            background-color: transparent;
+            border: none;
+        }
+    }
+    #footer{
+        *{
+            color: $COLOR_TEXT_3;
+        }
+    }
+    #addBtn, #securityScanBtn{
+        background-color: $COLOR_ACCENT_2;
+    }
+}
+
+#VaultComponent{
+    #tabWidget{
+        & > QWidget > QWidget{
+            border: none;
+            background-color: transparent;
+            & > QWidget{
+                background-color: transparent;
+                border: none;
+                & > QWidget{
+                    background-color: $GRADIENT_DARK;
+                    border: $BORDER_GREY;
+                }
+                & > QFrame{
+                    background-color: transparent;
+                    border: none;
+                }
+            }
+        }
+    }
+    #details{
+        background-color: $GRADIENT_DARK;
+        border-radius: 10px;
+        border: $BORDER_GREY;
+        #itemDetailsPages{
+            QLabel{
+                background-color: transparent;
+            }
+        }
+        #securityStatus{
+            border-radius: 10px;
+        }
+    }
+    #weakPassword{
+        font-weight: bold;
+        color: $DANGER;
+    }
+    #reusedPassword{
+        font-weight: bold;
+        color: $WARNING;
+    }
+    #oldPassword{
+        font-weight: bold;
+        color: $WARNING;
+    }
+}
+
+#GeneratorComponent{
+    #widget_2, #widget_4{
+        border-radius: 10px;
+        background-color: $GRADIENT_DARK;
+        border: $BORDER_GREY;
+        QLabel{
+            background-color: transparent;
+            border: none;
+        }
+        & > QLabel{
+            font-weight: bold;
+        }
+        QFrame{
+            border-radius: 5px;
+            background-color: transparent;
+        }
+        QPushButton{
+            background-color: transparent;
+            font-weight: bold;
+            padding: 10px;
+            background-color: $COLOR_ACCENT_2;
+            border-radius: 5px;
+        }
+    }
+}
+
+#SecurityScanComponent{
+    // Cards
+    #widget_2, #widget_7{
+        background-color: transparent;
+        & > QWidget{
+            background: $GRADIENT_DARK;
+            border: $BORDER_GREY;
+            border-radius: 20px;
+            QFrame, * QLabel{
+                background-color: transparent;
+                background: none;
+                border: none;
+            }
+            * QPushButton{
+                background-color: $COLOR_BACKGROUND_3;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+#SidebarComponent{
+    background-color: transparent;
+    & > QWidget > QWidget{
+        background-color: $GRADIENT_DARK2;
+        border-radius: 20px;
+        QPushButton{
+            text-align: left;
+        }
+        #logoLabel{
+            background-color: transparent;
+            // background: none;
+            // QIcon, QLabel{
+            //     background-color: red;
+            // }
+        }
+    }
+}
+
+#FooterComponent{
+    background-color: $GRADIENT_DARK;
+    border-radius: 20px;
+    QWidget{
+        background-color: transparent;
+        border: none;
+        color: $COLOR_TEXT_3;
+    }
+}
+
+QTabWidget {
+    border: none;
+    background-color: transparent;
+    & > QWidget{
+        border: none;
+    }
+	QTabBar{
+		border: none;
+        background-color: $GRADIENT_DARK;
+		&::tab {
+            background-color: $COLOR_ACCENT_2;
+            border: none;
+            font-weight: 1000;
+            border-radius: 10px;	
+            margin: 5px 8px;
+            padding: 8px 10px;
+			&:top {
+				&:selected {
+					background-color: $COLOR_ACCENT_2;
+					border: none;
+					font-weight: 1000;
+                    border-radius: 10px;	
+                    margin: 5px 8px;
+                    padding: 8px 10px;
+				}
+	
+				&:!selected:hover {
+					background-color: $COLOR_ACCENT_3;
+					border: none;
+                    font-weight: 1000;
+                    border-radius: 10px;
+                    margin: 5px 8px;
+                    padding: 8px 10px;
+				}
+				&:!selected {
+					background-color: transparent;
+					border: none;
+                    font-weight: normal;
+                    margin: 5px 8px;
+                    padding: 8px 10px;
+				}
+			}
+		}
+	}
+}
+QCustomQDialog{
+    background-color: transparent;
+    & > *{
+        background-color: transparent;
+        & > *{
+            background-color: transparent;
+        }
+    }
+}
+#VaultFormComponent, #VaultItemDetailsForm, #EditUsernameForm, #RightBarComponent, #EncryptionForm{
+    background: transparent;
+    & > QWidget{
+        background-color: $GRADIENT_DARK2;
+        border-radius: 20px;
+        border: $BORDER_GREY;
+        & > QWidget{
+            background-color: transparent;
+            QLabel{
+                background-color: transparent;
+                border: none;
+            }
+            & > QLabel{
+                font-weight: bold;
+            }
+            QFrame{
+                border-radius: 5px;
+                background-color: transparent;
+            }
+            QPushButton{
+                background-color: transparent;
+                font-weight: bold;
+                padding: 10px;
+                background-color: $COLOR_ACCENT_2;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+#RightBarComponent{
+    #notificationsContainer{
+        & > QWidget{
+            background-color: $GRADIENT_DARK;
+            border-radius: 10px;
+            border: $BORDER_GREY;
+        }
+    }
+}
+
+#AboutForm{
+        background-color: $GRADIENT_DARK2;
+        border-radius: 20px;
+        border: $BORDER_GREY;
+        #closeBtn{
+            background-color: $COLOR_ACCENT_1;
+        }
+}
+//===================================================//
+// END //
+//====================================================//
+

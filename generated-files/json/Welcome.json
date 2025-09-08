@@ -1,0 +1,38 @@
+{
+  "QLabel": [
+    {
+      "name": "label_2",
+      "pixmap": "../assets/images/TRUSTED IN_GREY.png"
+    },
+    {
+      "name": "label",
+      "pixmap": "../Qss/icons/icons/material_design/fingerprint.png"
+    },
+    {
+      "name": "label_8",
+      "pixmap": "../Qss/icons/icons/font_awesome/solid/lock-open.png"
+    }
+  ],
+  "QPushButton": [
+    {
+      "name": "pushButton",
+      "icon": "../Qss/icons/icons/font_awesome/solid/cloud.png"
+    },
+    {
+      "name": "pushButton_4",
+      "icon": "../Qss/icons/icons/material_design/contact_mail.png"
+    },
+    {
+      "name": "pushButton_5",
+      "icon": "../Qss/icons/icons/material_design/edit_note.png"
+    },
+    {
+      "name": "pushButton_3",
+      "icon": "../Qss/icons/icons/material_design/mark_email_unread.png"
+    },
+    {
+      "name": "pushButton_2",
+      "icon": "../Qss/icons/icons/font_awesome/solid/credit-card.png"
+    }
+  ]
+}

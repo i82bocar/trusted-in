@@ -1,0 +1,48 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# PyInstaller build artifacts
+build/
+dist/
+
+# Logs
+logs/
+*.log
+
+# Vault & export/import files
+*.tivault
+*.pdf
+
+# IDE/project settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python egg metadata
+*.egg-info/
+.eggs/
+
+# Backup or temp files
+*.bak
+*.tmp
+*.old
+*.orig
+
+# Ignore hidden files
+.*
+!/.gitignore

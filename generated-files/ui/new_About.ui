@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ui version="4.0">
+ <class>AboutForm</class>
+ <widget class="QWidget" name="AboutForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="header" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item alignment="Qt::AlignmentFlag::AlignLeft">
+       <widget class="QFrame" name="frame_2">
+        <property name="frameShape">
+         <enum>QFrame::Shape::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="welcomeName">
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>About</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_3">
+        <property name="frameShape">
+         <enum>QFrame::Shape::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QPushButton" name="closeBtn">
+           <property name="text">
+            <string />
+           </property>
+           <property name="icon">
+            <iconset resource="../Qss/icons/_icons.qrc">
+             <normaloff>:/material_design/icons/material_design/close.png</normaloff>:/material_design/icons/material_design/close.png</iconset>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCustomHorizontalSeparator" name="customHorizontalSeparator" />
+   </item>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-764</y>
+        <width>560</width>
+        <height>1485</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;h2 style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-size:x-large; font-weight:700;"&gt;About TrustedIn&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;span style=" font-weight:700;"&gt;TrustedIn&lt;/span&gt; is a cross-platform desktop application designed to securely store, generate, and manage passwords and other sensitive information such as payment cards, contacts, bank accounts, and private notes. Developed with strong encryption and user-centric design, TrustedIn serves as a secure vault, empowering users to protect their digital identity with confidence and ease.&lt;/p&gt;&lt;p&gt;Originally created as a &lt;span style=" font-weight:700;"&gt;Final Degree Project&lt;/span&gt; at the &lt;span style=" font-weight:700;"&gt;University of Córdoba (Spain)&lt;/span&gt;, the application combines academic rigor with real-world relevance, offering a powerful and intuitive solution to modern security challenges.&lt;/p&gt;&lt;hr/&gt;&lt;h3 style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-size:large; font-weight:700;"&gt;Key Features&lt;/span&gt;&lt;/h3&gt;&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;Encrypted Vault Storage&lt;/span&gt;&lt;br/&gt;Securely manage passwords, bank details, contacts, and notes using AES-256 and ChaCha20 encryption.&lt;/li&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;Password Generation&lt;/span&gt;&lt;br/&gt;Create strong, customized passwords based on user-defined criteria: length, symbols, numbers, and more.&lt;/li&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;Custom Encryption Selection&lt;/span&gt;&lt;br/&gt;Choose between different database encryption algorithms to suit your security preferences.&lt;/li&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;Security Health Analysis&lt;/span&gt;&lt;br/&gt;Identify weak, old, or reused credentials and receive suggestions for improving your digital hygiene.&lt;/li&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;Multi-Account Support&lt;/span&gt;&lt;br/&gt;Use multiple accounts on the same device, allowing shared usage while keeping data isolated and encrypted.&lt;/li&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;Offline Access &amp;amp; Local Storage&lt;/span&gt;&lt;br/&gt;All data is stored &lt;span style=" font-weight:700;"&gt;locally&lt;/span&gt; and remains accessible offline—no cloud storage, no external exposure.&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;h3 style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-size:large; font-weight:700;"&gt;Tech Stack&lt;/span&gt;&lt;/h3&gt;&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;Language&lt;/span&gt;: Python 3.11&lt;/li&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;GUI Framework&lt;/span&gt;: PySide2 / PyQt5&lt;/li&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;Database&lt;/span&gt;: SQLite (Encrypted Local DB)&lt;/li&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;IDE&lt;/span&gt;: PyCharm, VS Code&lt;/li&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;OS Compatibility&lt;/span&gt;: Windows 11, Ubuntu 22.04&lt;/li&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;Encryption&lt;/span&gt;: AES-256, ChaCha20, PBKDF2&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;h3 style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-size:large; font-weight:700;"&gt;Academic Affiliation&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;This application was developed as part of the &lt;span style=" font-weight:700;"&gt;Final Degree Project (Trabajo Fin de Grado)&lt;/span&gt; for the &lt;span style=" font-weight:700;"&gt;Bachelor’s Degree in Computer Engineering&lt;/span&gt; at:&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:700;"&gt;University of Córdoba, Spain&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string />
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../assets/assets.qrc">:/images/images/logo-horizontal-150px.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:700;"&gt;Project Director:&lt;/span&gt; Dr. Juan Antonio Romero del Castillo&lt;br/&gt;Associate Professor, Department of Computer Science and Numerical Analysis&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:700;"&gt;Author:&lt;/span&gt; Rubén Borrego Canovaca&lt;/p&gt;&lt;hr/&gt;&lt;h3 style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-size:large; font-weight:700;"&gt;Privacy Commitment&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;TrustedIn follows a &lt;span style=" font-weight:700;"&gt;zero-knowledge architecture&lt;/span&gt;. All your information stays encrypted on your device. We do not track, store, or transmit any personal data to external servers.&lt;/p&gt;&lt;hr/&gt;&lt;h3 style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-size:large; font-weight:700;"&gt;Contact&lt;/span&gt;&lt;/h3&gt;&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;Email&lt;/span&gt;: &lt;a href="mailto:support@trustedin.app"&gt;&lt;span style=" text-decoration: underline; color:#8c61b8;"&gt;support@trustedin.app&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;Phone&lt;/span&gt;: +34-606-25-27-55&lt;/li&gt;&lt;li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:700;"&gt;Website&lt;/span&gt;: &lt;a href="https://trustedin.app/"&gt;&lt;span style=" text-decoration: underline; color:#8c61b8;"&gt;https://trustedin.app&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;&lt;span style=" font-weight:700;"&gt;&amp;quot;Your trust, your data, your control — TrustedIn.&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::TextFormat::RichText</enum>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomHorizontalSeparator</class>
+   <extends>QWidget</extends>
+   <header>Custom_Widgets.QCustomHorizontalSeparator</header>
+  </customwidget>
+ <customwidget><class>QPushButton</class><extends>QPushButton</extends><header location="global">Custom_Widgets.Theme.h</header><container>1</container></customwidget><customwidget><class>QLabel</class><extends>QLabel</extends><header location="global">Custom_Widgets.Theme.h</header><container>1</container></customwidget></customwidgets>
+ <connections />
+</ui>

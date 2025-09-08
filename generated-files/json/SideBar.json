@@ -1,0 +1,42 @@
+{
+  "QCustomSidebarLabel": [
+    {
+      "name": "logoLabel",
+      "icon": "../assets/images/TRUSTED IN_GREY.png"
+    }
+  ],
+  "QCustomSidebarButton": [
+    {
+      "name": "menuBtn",
+      "icon": "../Qss/icons/icons/material_design/menu_open.png"
+    },
+    {
+      "name": "dashboardBtn",
+      "icon": "../Qss/icons/icons/material_design/dashboard_customize.png"
+    },
+    {
+      "name": "vaultBtn",
+      "icon": "../Qss/icons/icons/font_awesome/solid/vault.png"
+    },
+    {
+      "name": "generatorBtn",
+      "icon": "../Qss/icons/icons/material_design/generating_tokens.png"
+    },
+    {
+      "name": "securityScanBtn",
+      "icon": "../Qss/icons/icons/material_design/shield.png"
+    },
+    {
+      "name": "settingsBtn",
+      "icon": "../Qss/icons/icons/material_design/settings.png"
+    },
+    {
+      "name": "userBtn",
+      "icon": "../Qss/icons/icons/font_awesome/solid/circle-user.png"
+    },
+    {
+      "name": "aboutBtn",
+      "icon": "../Qss/icons/icons/material_design/info.png"
+    }
+  ]
+}

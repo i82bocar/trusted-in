@@ -1,0 +1,39 @@
+{
+  "QComboBox": [
+    {
+      "name": "itemTypeComboBox",
+      "items": [
+        {
+          "name": "Passwords"
+        },
+        {
+          "name": "Notes"
+        },
+        {
+          "name": "Payment Cards"
+        },
+        {
+          "name": "Contacts"
+        }
+      ]
+    }
+  ],
+  "QPushButton": [
+    {
+      "name": "showPasswordBtn",
+      "icon": "../Qss/icons/icons/font_awesome/solid/eye.png"
+    },
+    {
+      "name": "generatePasswordBtn",
+      "icon": "../Qss/icons/icons/material_design/generating_tokens.png"
+    },
+    {
+      "name": "cancelButton",
+      "icon": "../Qss/icons/icons/material_design/cancel.png"
+    },
+    {
+      "name": "saveButton",
+      "icon": "../Qss/icons/icons/material_design/save.png"
+    }
+  ]
+}

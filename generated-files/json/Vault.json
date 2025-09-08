@@ -1,0 +1,42 @@
+{
+  "QPushButton": [
+    {
+      "name": "pushButton",
+      "icon": "../Qss/icons/icons/feather/search.png"
+    },
+    {
+      "name": "clearSearchBtn",
+      "icon": "../Qss/icons/icons/material_design/clear.png"
+    },
+    {
+      "name": "addBtn",
+      "icon": "../Qss/icons/icons/font_awesome/solid/plus.png"
+    },
+    {
+      "name": "refreshBtn",
+      "icon": "../Qss/icons/icons/material_design/refresh.png"
+    }
+  ],
+  "QWidget": [
+    {
+      "QTabWidget": "tabWidget",
+      "name": "passwordTab",
+      "icon": "../Qss/icons/icons/material_design/password.png"
+    },
+    {
+      "QTabWidget": "tabWidget",
+      "name": "notesTab",
+      "icon": "../Qss/icons/icons/font_awesome/solid/note-sticky.png"
+    },
+    {
+      "QTabWidget": "tabWidget",
+      "name": "paymentCardsTab",
+      "icon": "../Qss/icons/icons/font_awesome/solid/credit-card.png"
+    },
+    {
+      "QTabWidget": "tabWidget",
+      "name": "contactsTab",
+      "icon": "../Qss/icons/icons/material_design/contact_phone.png"
+    }
+  ]
+}

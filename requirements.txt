@@ -1,0 +1,8 @@
+PySide6
+QT-PyQt-PySide-Custom-Widgets
+cryptography
+requests
+appdirs
+fpdf2
+pycryptodome
+pysqlcipher3

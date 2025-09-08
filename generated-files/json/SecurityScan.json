@@ -1,0 +1,16 @@
+{
+  "QPushButton": [
+    {
+      "name": "securityScanBtn",
+      "icon": "../Qss/icons/icons/material_design/radar.png"
+    },
+    {
+      "name": "addBtn",
+      "icon": "../Qss/icons/icons/material_design/add.png"
+    },
+    {
+      "name": "viewBreachBtn",
+      "icon": "../Qss/icons/icons/feather/eye.png"
+    }
+  ]
+}

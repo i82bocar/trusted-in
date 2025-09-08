@@ -1,0 +1,111 @@
+{
+    "ShowLogs": true,
+    "QtBinding": "PySide6",
+    "CheckForMissingicons": true,
+    "LiveCompileQss": true,
+    "QMainWindow": {
+        "title": "TrustedIn",
+        "icon": "assets/images/TRUSTED IN_GREY.png"
+    },
+    "QSettings": {
+        "AppSettings": {
+            "OrginizationName": "TrustedIn APP",
+            "ApplicationName": "TrustedIn Company",
+            "OrginizationDormain": "TrustedIn.org"
+        },
+        "ThemeSettings": {
+            "QtDesignerIconsColor": "#505353",
+            "CustomThemes": [
+                {
+                    "Background-color": "#222426",
+                    "Text-color": "#ececec",
+                    "Accent-color": "#07edb5",
+                    "Icons-color": "#505353",
+                    "Theme-name": "Dark",
+                    "Default-Theme": true,
+                    "Other-variables": {
+                        "GREY_DARK": "#222426",
+                        "GREY_DEEPEST": "#111315",
+                        "TEAL_PRIMARY": "#0f725a",
+                        "TEAL_DARK": "#112521",
+                        "TEAL_ACCENT": "#07edb5"
+                    }
+                },
+                {
+                    "Background-color": "#ffffff",
+                    "Text-color": "#333333",
+                    "Accent-color": "#00b38f",
+                    "Icons-color": "#7a7a7a",
+                    "Theme-name": "Light",
+                    "Default-Theme": false,
+                    "Other-variables": {
+                        "GREY_DARK": "#f5f5f5",
+                        "GREY_DEEPEST": "#fafafa",
+                        "TEAL_PRIMARY": "#00a884",
+                        "TEAL_DARK": "#e0f2ef",
+                        "TEAL_ACCENT": "#00b38f"
+                    }
+                }
+            ]
+        }
+    },
+    "QCustomQStackedWidget": [
+        {
+            "name": "mainBodyPages",
+            "navigation": {
+                "navigationButtons": {
+                    "welcomeComponentLoader.component.registerBtn": "loginpage",
+                    "welcomeComponentLoader.component.loginBtn": "loginpage"
+                }
+            }
+        },
+        {
+            "name": "loginComponentLoader.component.accountPages",
+            "navigation": {
+                "navigationButtons": {
+                    "welcomeComponentLoader.component.registerBtn": "loginComponentLoader.component.registerPage",
+                    "loginComponentLoader.component.bRegBtn": "loginComponentLoader.component.registerPage",
+                    "loginComponentLoader.component.bRegBtn_2": "loginComponentLoader.component.registerPage",
+                    "welcomeComponentLoader.component.loginBtn": "loginComponentLoader.component.loginPage",
+                    "loginComponentLoader.component.bLoginBtn": "loginComponentLoader.component.loginPage",
+                    "loginComponentLoader.component.bLoginBtn_2": "loginComponentLoader.component.loginPage",
+                    "loginComponentLoader.component.toRegisterBtn": "loginComponentLoader.component.registerPage",
+                    "loginComponentLoader.component.toLoginBtn": "loginComponentLoader.component.loginPage",
+                    "loginComponentLoader.component.forgotpassBtn": "loginComponentLoader.component.passwordRecoveryPage"
+                }
+            }
+        },
+        {
+            "name": "contentPages",
+            "navigation": {
+                "navigationButtons": {
+                    "sideBarComponentLoader.component.dashboardBtn": "dashboardPage",
+                    "sideBarComponentLoader.component.vaultBtn": "vaultPage",
+                    "sideBarComponentLoader.component.generatorBtn": "generatorPage",
+                    "sideBarComponentLoader.component.securityScanBtn": "securityPage",
+                    "sideBarComponentLoader.component.settingsBtn": "settingsPage",
+                    "sideBarComponentLoader.component.userBtn": "userPage"
+                }
+            }
+        }
+    ],
+    "QPushButtonGroup": [
+        {
+            "Buttons": [
+                "sideBarComponentLoader.component.dashboardBtn",
+                "sideBarComponentLoader.component.vaultBtn",
+                "sideBarComponentLoader.component.generatorBtn",
+                "sideBarComponentLoader.component.securityScanBtn",
+                "sideBarComponentLoader.component.settingsBtn",
+                "sideBarComponentLoader.component.userBtn"
+            ],
+            "ActiveButton": "leftBarComponentLoader.component.dashboardBtn",
+            "Style": [
+                {
+                    "Active": "QPushButton{background-color: THEME.COLOR_ACCENT_2; font-weight: bold;}",
+                    "NotActive": ""
+                }
+            ]
+        }
+    ]
+}

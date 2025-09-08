@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NotificationModal</class>
+ <widget class="QCustomComponentContainer" name="NotificationModal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>491</width>
+    <height>287</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>475</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>CustomComponentContainer</string>
+  </property>
+  <property name="jsonStylesheetFilePath" stdset="0">
+   <string>json-styles/style.json</string>
+  </property>
+  <property name="liveCompileStylesheet" stdset="0">
+   <bool>true</bool>
+  </property>
+  <property name="paintQtDesignerUI" stdset="0">
+   <bool>true</bool>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>10</number>
+   </property>
+   <property name="leftMargin">
+    <number>20</number>
+   </property>
+   <property name="topMargin">
+    <number>20</number>
+   </property>
+   <property name="rightMargin">
+    <number>20</number>
+   </property>
+   <property name="bottomMargin">
+    <number>20</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="_ww" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <property name="leftMargin">
+       <number>22</number>
+      </property>
+      <property name="topMargin">
+       <number>22</number>
+      </property>
+      <property name="rightMargin">
+       <number>22</number>
+      </property>
+      <property name="bottomMargin">
+       <number>22</number>
+      </property>
+      <item alignment="Qt::AlignmentFlag::AlignTop">
+       <widget class="QLabel" name="notifIcon">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="../Qss/icons/_icons.qrc">:/font_awesome_solid/icons/font_awesome/solid/circle-info.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_2" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item alignment="Qt::AlignmentFlag::AlignTop">
+          <widget class="QLabel" name="header">
+           <property name="font">
+            <font>
+             <pointsize>-1</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Upgrade to get more trades/ Execution</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCustomHorizontalSeparator" name="customHorizontalSeparator"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="body">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>You have reached the trade limit on your current plan. To unlock more trading opportunities, consider upgrading your plan today.</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCustomQProgressBar" name="loadingProgressBar"/>
+         </item>
+         <item>
+          <widget class="QCustomHorizontalSeparator" name="customHorizontalSeparator_2"/>
+         </item>
+         <item alignment="Qt::AlignmentFlag::AlignBottom">
+          <widget class="QFrame" name="footer">
+           <property name="frameShape">
+            <enum>QFrame::Shape::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Shadow::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <property name="spacing">
+             <number>10</number>
+            </property>
+            <property name="leftMargin">
+             <number>20</number>
+            </property>
+            <property name="topMargin">
+             <number>10</number>
+            </property>
+            <property name="rightMargin">
+             <number>20</number>
+            </property>
+            <property name="bottomMargin">
+             <number>10</number>
+            </property>
+            <item>
+             <widget class="QPushButton" name="okayBtn">
+              <property name="text">
+               <string>Buy / Upgrade</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="cancelBtn">
+              <property name="text">
+               <string>Get License</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomHorizontalSeparator</class>
+   <extends>QWidget</extends>
+   <header>Custom_Widgets.QCustomHorizontalSeparator</header>
+  </customwidget>
+  <customwidget>
+   <class>QCustomComponentContainer</class>
+   <extends>QWidget</extends>
+   <header>Custom_Widgets.QCustomComponentContainer</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QCustomQProgressBar</class>
+   <extends>QProgressBar</extends>
+   <header>Custom_Widgets.QCustomLoadingIndicators</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../assets/assets.qrc"/>
+  <include location="../Qss/icons/_icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

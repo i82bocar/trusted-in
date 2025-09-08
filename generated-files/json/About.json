@@ -1,0 +1,14 @@
+{
+  "QPushButton": [
+    {
+      "name": "closeBtn",
+      "icon": "../Qss/icons/icons/material_design/close.png"
+    }
+  ],
+  "QLabel": [
+    {
+      "name": "label_3",
+      "pixmap": "../assets/images/logo-horizontal-150px.png"
+    }
+  ]
+}

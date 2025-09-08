@@ -1,0 +1,62 @@
+{
+  "QPushButton": [
+    {
+      "name": "addBtn",
+      "icon": "../Qss/icons/icons/font_awesome/solid/plus.png"
+    },
+    {
+      "name": "notificationBtn",
+      "icon": "../Qss/icons/icons/font_awesome/solid/bell.png"
+    },
+    {
+      "name": "quickFixBtn",
+      "icon": "../Qss/icons/icons/feather/tool.png"
+    },
+    {
+      "name": "breachBtn",
+      "icon": "../Qss/icons/icons/feather/eye.png"
+    },
+    {
+      "name": "generatorBtn",
+      "icon": "../Qss/icons/icons/material_design/generating_tokens.png"
+    },
+    {
+      "name": "settingsBtn",
+      "icon": "../Qss/icons/icons/feather/settings.png"
+    },
+    {
+      "name": "userBtn",
+      "icon": "../Qss/icons/icons/font_awesome/solid/circle-user.png"
+    },
+    {
+      "name": "viewWeakPass",
+      "icon": "../Qss/icons/icons/material_design/browser_updated.png"
+    },
+    {
+      "name": "viewpassBtn",
+      "icon": "../Qss/icons/icons/feather/eye.png"
+    },
+    {
+      "name": "updatePassBtn",
+      "icon": "../Qss/icons/icons/material_design/browser_updated.png"
+    },
+    {
+      "name": "vaultBtn",
+      "icon": "../Qss/icons/icons/font_awesome/solid/shield.png"
+    }
+  ],
+  "QLabel": [
+    {
+      "name": "label_8",
+      "pixmap": "../Qss/icons/icons/material_design/settings_backup_restore.png"
+    },
+    {
+      "name": "label_10",
+      "pixmap": "../Qss/icons/icons/font_awesome/solid/lock.png"
+    },
+    {
+      "name": "label_12",
+      "pixmap": "../Qss/icons/icons/material_design/sd_storage.png"
+    }
+  ]
+}

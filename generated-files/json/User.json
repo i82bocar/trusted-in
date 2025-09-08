@@ -1,0 +1,26 @@
+{
+  "QLabel": [
+    {
+      "name": "label_3",
+      "pixmap": "../Qss/icons/icons/font_awesome/solid/circle-user.png"
+    }
+  ],
+  "QPushButton": [
+    {
+      "name": "editUsernameBtn",
+      "icon": "../Qss/icons/icons/feather/edit-2.png"
+    },
+    {
+      "name": "pushButton_8",
+      "icon": "../Qss/icons/icons/material_design/verified.png"
+    },
+    {
+      "name": "logoutBtn",
+      "icon": "../Qss/icons/icons/material_design/logout.png"
+    },
+    {
+      "name": "deleteAccountBtn",
+      "icon": "../Qss/icons/icons/material_design/delete_forever.png"
+    }
+  ]
+}

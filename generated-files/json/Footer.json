@@ -1,0 +1,16 @@
+{
+  "QPushButton": [
+    {
+      "name": "pushButton",
+      "icon": "../Qss/icons/icons/font_awesome/solid/user-lock.png"
+    },
+    {
+      "name": "clipboardStatusLabel",
+      "icon": "../Qss/icons/icons/font_awesome/solid/clipboard-check.png"
+    },
+    {
+      "name": "lastSyncedLabel",
+      "icon": "../Qss/icons/icons/material_design/cloud_sync.png"
+    }
+  ]
+}

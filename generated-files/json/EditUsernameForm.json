@@ -1,0 +1,12 @@
+{
+  "QPushButton": [
+    {
+      "name": "saveButton",
+      "icon": "../Qss/icons/icons/material_design/save.png"
+    },
+    {
+      "name": "cancelButton",
+      "icon": "../Qss/icons/icons/material_design/cancel.png"
+    }
+  ]
+}

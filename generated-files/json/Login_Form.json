@@ -1,0 +1,54 @@
+{
+  "QLabel": [
+    {
+      "name": "logo",
+      "pixmap": "../assets/images/TRUSTED IN_GREY.png"
+    },
+    {
+      "name": "logo_2",
+      "pixmap": "../assets/images/TRUSTED IN_GREY.png"
+    },
+    {
+      "name": "logo_3",
+      "pixmap": "../assets/images/TRUSTED IN_GREY.png"
+    },
+    {
+      "name": "logo_4",
+      "pixmap": "../assets/images/TRUSTED IN_GREY.png"
+    }
+  ],
+  "QPushButton": [
+    {
+      "name": "pushButton_2",
+      "icon": "../Qss/icons/icons/material_design/fingerprint.png"
+    },
+    {
+      "name": "pushButton_3",
+      "icon": "../Qss/icons/icons/font_awesome/brands/windows.png"
+    },
+    {
+      "name": "pushButton_4",
+      "icon": "../Qss/icons/icons/material_design/fingerprint.png"
+    },
+    {
+      "name": "pushButton_5",
+      "icon": "../Qss/icons/icons/font_awesome/brands/windows.png"
+    },
+    {
+      "name": "pushButton_6",
+      "icon": "../Qss/icons/icons/material_design/fingerprint.png"
+    },
+    {
+      "name": "pushButton_7",
+      "icon": "../Qss/icons/icons/font_awesome/brands/windows.png"
+    },
+    {
+      "name": "pushButton_8",
+      "icon": "../Qss/icons/icons/material_design/fingerprint.png"
+    },
+    {
+      "name": "pushButton_9",
+      "icon": "../Qss/icons/icons/font_awesome/brands/windows.png"
+    }
+  ]
+}

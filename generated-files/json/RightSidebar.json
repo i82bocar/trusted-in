@@ -1,0 +1,12 @@
+{
+  "QPushButton": [
+    {
+      "name": "closeBtn",
+      "icon": "../Qss/icons/icons/material_design/close.png"
+    },
+    {
+      "name": "clearBtn",
+      "icon": "../Qss/icons/icons/material_design/delete_sweep.png"
+    }
+  ]
+}

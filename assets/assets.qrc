@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/BG.png</file>
+    <file>images/logo-horizontal-150px.png</file>
+    <file>images/TRUSTED IN_GREY.png</file>
+    <file>images/TRUSTED_IN_GREY.png</file>
+    <file>images/TRUSTED_IN_TEAL.png</file>
+  </qresource>
+</RCC>

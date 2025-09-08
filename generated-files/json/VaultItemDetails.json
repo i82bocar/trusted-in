@@ -1,0 +1,64 @@
+{
+  "QPushButton": [
+    {
+      "name": "closeBtn",
+      "icon": "../Qss/icons/icons/material_design/close.png"
+    },
+    {
+      "name": "showPasswordBtn",
+      "icon": "../Qss/icons/icons/font_awesome/solid/eye-slash.png"
+    },
+    {
+      "name": "copyPasswordBtn",
+      "icon": "../Qss/icons/icons/material_design/content_copy.png"
+    },
+    {
+      "name": "showUsernameBtn",
+      "icon": "../Qss/icons/icons/font_awesome/solid/eye.png"
+    },
+    {
+      "name": "copyUsernameBtn",
+      "icon": "../Qss/icons/icons/material_design/content_copy.png"
+    },
+    {
+      "name": "copySiteBtn",
+      "icon": "../Qss/icons/icons/material_design/content_copy.png"
+    },
+    {
+      "name": "openSiteBtn",
+      "icon": "../Qss/icons/icons/material_design/open_in_new.png"
+    },
+    {
+      "name": "copyCardNumberBtn",
+      "icon": "../Qss/icons/icons/material_design/content_copy.png"
+    },
+    {
+      "name": "copyHolderBtn",
+      "icon": "../Qss/icons/icons/material_design/content_copy.png"
+    },
+    {
+      "name": "copyExpiryBtn",
+      "icon": "../Qss/icons/icons/material_design/content_copy.png"
+    },
+    {
+      "name": "showCvvBtn",
+      "icon": "../Qss/icons/icons/material_design/remove_red_eye.png"
+    },
+    {
+      "name": "copyCvvBtn",
+      "icon": "../Qss/icons/icons/material_design/content_copy.png"
+    },
+    {
+      "name": "copyNameBtn",
+      "icon": "../Qss/icons/icons/material_design/content_copy.png"
+    },
+    {
+      "name": "copyEmailBtn",
+      "icon": "../Qss/icons/icons/material_design/content_copy.png"
+    },
+    {
+      "name": "copyPhoneBtn",
+      "icon": "../Qss/icons/icons/material_design/content_copy.png"
+    }
+  ]
+}

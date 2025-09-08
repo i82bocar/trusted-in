@@ -1,0 +1,90 @@
+{
+  "QPushButton": [
+    {
+      "name": "saveSettingsBtn",
+      "icon": "../Qss/icons/icons/material_design/save.png"
+    },
+    {
+      "name": "resetSettingsBtn",
+      "icon": "../Qss/icons/icons/material_design/settings_backup_restore.png"
+    },
+    {
+      "name": "resetVaultBtn",
+      "icon": "../Qss/icons/icons/material_design/warning.png"
+    }
+  ],
+  "QComboBox": [
+    {
+      "name": "autoLockComboBox",
+      "items": [
+        {
+          "name": "30"
+        },
+        {
+          "name": "1"
+        },
+        {
+          "name": "5"
+        },
+        {
+          "name": "10"
+        },
+        {
+          "name": "Never"
+        }
+      ]
+    },
+    {
+      "name": "comboBox_4",
+      "items": [
+        {
+          "name": "English"
+        },
+        {
+          "name": "Spanish"
+        }
+      ]
+    },
+    {
+      "name": "encryptionComboBox",
+      "items": [
+        {
+          "name": "AES-256"
+        },
+        {
+          "name": "ChaCha20"
+        },
+        {
+          "name": "PBKDF2"
+        }
+      ]
+    },
+    {
+      "name": "clipboardComboBox",
+      "items": [
+        {
+          "name": "1"
+        },
+        {
+          "name": "5"
+        },
+        {
+          "name": "10"
+        },
+        {
+          "name": "30"
+        },
+        {
+          "name": "Never"
+        }
+      ]
+    }
+  ],
+  "QCustomThemeDarkLightToggle": [
+    {
+      "name": "CustomThemeDarkLightToggle",
+      "darkThemeIcon": "../Qss/icons/icons/material_design/dark_mode.png",
+      "lightThemeIcon": "../Qss/icons/icons/material_design/light_mode.png"
+    }
+  ]
+}

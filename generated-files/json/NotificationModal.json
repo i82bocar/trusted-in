@@ -1,0 +1,8 @@
+{
+  "QLabel": [
+    {
+      "name": "notifIcon",
+      "pixmap": "../Qss/icons/icons/font_awesome/solid/circle-info.png"
+    }
+  ]
+}

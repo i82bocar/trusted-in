@@ -1,0 +1,24 @@
+{
+  "QComboBox": [
+    {
+      "name": "encryptionCombo",
+      "items": [
+        {
+          "name": "None"
+        },
+        {
+          "name": "AES-256 Active"
+        },
+        {
+          "name": "ChaCha20 Active"
+        },
+        {
+          "name": "XOR Active"
+        },
+        {
+          "name": "PBK Active"
+        }
+      ]
+    }
+  ]
+}

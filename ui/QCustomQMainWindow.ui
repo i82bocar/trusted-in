@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CustomMainWindow</class>
+ <widget class="QCustomQMainWindow" name="CustomMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>832</width>
+    <height>128</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>TrustedIn</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../assets/assets.qrc">
+    <normaloff>:/images/images/TRUSTED IN_GREY.png</normaloff>:/images/images/TRUSTED IN_GREY.png</iconset>
+  </property>
+  <property name="appTheme" stdset="0">
+   <string>Dark</string>
+  </property>
+  <property name="liveCompileStylesheet" stdset="0">
+   <bool>true</bool>
+  </property>
+  <property name="paintQtDesignerUI" stdset="0">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>10</number>
+    </property>
+    <property name="leftMargin">
+     <number>10</number>
+    </property>
+    <property name="topMargin">
+     <number>10</number>
+    </property>
+    <property name="rightMargin">
+     <number>10</number>
+    </property>
+    <property name="bottomMargin">
+     <number>10</number>
+    </property>
+    <item>
+     <widget class="QCustomQStackedWidget" name="mainBodyPages">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <property name="slideTransition" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="transitionTime" stdset="0">
+       <number>1000</number>
+      </property>
+      <property name="fadeTime" stdset="0">
+       <number>1000</number>
+      </property>
+      <widget class="QWidget" name="welcomePage">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignVCenter">
+         <widget class="QCustomComponentContainer" name="welcomeComponentLoader">
+          <property name="filePath" stdset="0">
+           <string>src\ui_Welcome.py</string>
+          </property>
+          <property name="previewComponent" stdset="0">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="contentPage">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <property name="spacing">
+         <number>10</number>
+        </property>
+        <property name="leftMargin">
+         <number>10</number>
+        </property>
+        <property name="topMargin">
+         <number>10</number>
+        </property>
+        <property name="rightMargin">
+         <number>10</number>
+        </property>
+        <property name="bottomMargin">
+         <number>10</number>
+        </property>
+        <item alignment="Qt::AlignmentFlag::AlignLeft">
+         <widget class="QCustomComponentContainer" name="sideBarComponentLoader">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="filePath" stdset="0">
+           <string>src\ui_SideBar.py</string>
+          </property>
+          <property name="previewComponent" stdset="0">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QScrollArea" name="scrollArea">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>762</width>
+             <height>78</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_8">
+            <property name="spacing">
+             <number>10</number>
+            </property>
+            <property name="leftMargin">
+             <number>10</number>
+            </property>
+            <property name="topMargin">
+             <number>10</number>
+            </property>
+            <property name="rightMargin">
+             <number>10</number>
+            </property>
+            <property name="bottomMargin">
+             <number>10</number>
+            </property>
+            <item alignment="Qt::AlignmentFlag::AlignTop">
+             <widget class="QCustomQStackedWidget" name="contentPages">
+              <property name="slideTransition" stdset="0">
+               <bool>true</bool>
+              </property>
+              <property name="transitionTime" stdset="0">
+               <number>1000</number>
+              </property>
+              <widget class="QWidget" name="dashboardPage">
+               <layout class="QVBoxLayout" name="verticalLayout_3">
+                <property name="spacing">
+                 <number>10</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop">
+                 <widget class="QCustomComponentContainer" name="dashboardComponentLoader">
+                  <property name="filePath" stdset="0">
+                   <string>src\ui_Dashboard.py</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="vaultPage">
+               <layout class="QVBoxLayout" name="verticalLayout_4">
+                <property name="spacing">
+                 <number>10</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop">
+                 <widget class="QCustomComponentContainer" name="vaultComponentLoader">
+                  <property name="filePath" stdset="0">
+                   <string>src\ui_Vault.py</string>
+                  </property>
+                  <property name="previewComponent" stdset="0">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="generatorPage">
+               <layout class="QVBoxLayout" name="verticalLayout_6">
+                <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop">
+                 <widget class="QCustomComponentContainer" name="generatorComponentLoader">
+                  <property name="filePath" stdset="0">
+                   <string>src\ui_Generator.py</string>
+                  </property>
+                  <property name="previewComponent" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="securityPage">
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop">
+                 <widget class="QCustomComponentContainer" name="securityScanComponentLoader">
+                  <property name="filePath" stdset="0">
+                   <string>src\ui_SecurityScan.py</string>
+                  </property>
+                  <property name="previewComponent" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="settingsPage">
+               <layout class="QVBoxLayout" name="verticalLayout_7">
+                <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop">
+                 <widget class="QCustomComponentContainer" name="settingsComponentLoader">
+                  <property name="filePath" stdset="0">
+                   <string>src\ui_Settings.py</string>
+                  </property>
+                  <property name="previewComponent" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="userPage">
+               <layout class="QVBoxLayout" name="verticalLayout_9">
+                <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop">
+                 <widget class="QCustomComponentContainer" name="userComponentLoader">
+                  <property name="filePath" stdset="0">
+                   <string>src\ui_User.py</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignBottom">
+             <widget class="QCustomComponentContainer" name="footerComponentLoader">
+              <property name="filePath" stdset="0">
+               <string>src\ui_Footer.py</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignmentFlag::AlignRight">
+         <widget class="QCustomComponentContainer" name="rightBarComponentLoader">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="filePath" stdset="0">
+           <string>src\ui_RightSidebar.py</string>
+          </property>
+          <property name="previewComponent" stdset="0">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="loginpage">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignVCenter">
+         <widget class="QCustomComponentContainer" name="loginComponentLoader">
+          <property name="filePath" stdset="0">
+           <string>src\ui_LoginForm.py</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomQMainWindow</class>
+   <extends>QMainWindow</extends>
+   <header>Custom_Widgets.QCustomQMainWindow</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QCustomComponentContainer</class>
+   <extends>QWidget</extends>
+   <header>Custom_Widgets.QCustomComponentContainer</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QCustomQStackedWidget</class>
+   <extends>QStackedWidget</extends>
+   <header>Custom_Widgets.QCustomQStackedWidget</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../Qss/icons/_icons.qrc"/>
+  <include location="../assets/assets.qrc"/>
+ </resources>
+ <connections/>
+</ui>

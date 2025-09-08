@@ -1,0 +1,20 @@
+{
+  "QPushButton": [
+    {
+      "name": "addBtn",
+      "icon": "../Qss/icons/icons/font_awesome/solid/plus.png"
+    },
+    {
+      "name": "generateButton",
+      "icon": "../Qss/icons/icons/material_design/generating_tokens.png"
+    },
+    {
+      "name": "copyButton",
+      "icon": "../Qss/icons/icons/material_design/content_copy.png"
+    },
+    {
+      "name": "toggleVisibilityButton",
+      "icon": "../Qss/icons/icons/font_awesome/solid/eye-slash.png"
+    }
+  ]
+}
