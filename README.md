@@ -113,8 +113,4 @@ Here's an overview of the folder and file layout:
 * 🧊 Easily packageable with PyInstaller.
 
 ---
-
-## 🔗 Learn More
-
-
 ---
