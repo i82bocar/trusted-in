@@ -1,11 +1,4 @@
-# ///////////////////////////////////////////////////////////////
-#
-# Copyright 2021 by Parham Oyan and Oleg Frolov
-# All rights reserved.
-#
-# ///////////////////////////////////////////////////////////////
-# Edits and improvements made by Khamisi Kibet
-# QT GUI BY SPINN TV(YOUTUBE)
+
 
 from qtpy.QtCore import *
 from qtpy.QtGui import *

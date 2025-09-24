@@ -1,11 +1,4 @@
 ########################################################################
-## SPINN DESIGN CODE
-# YOUTUBE: (SPINN TV) https://www.youtube.com/spinnTv
-# WEBSITE: spinncode.com
-# EMAIL: info@spinncode.com
-########################################################################
-
-########################################################################
 ## IMPORTS
 ########################################################################
 import os
@@ -84,11 +77,6 @@ def create_project():
     # Current Directory
     currentDir = os.getcwd()
     print(colored(textwrap.dedent("""
-    # PROJECT MAKER
-    # YOUTUBE: (SPINN TV) https://www.youtube.com/spinnTv
-    # WEBSITE: spinncode.com
-    # EMAIL: info@spinncode.com
-
     # INITIALIZING A NEW PROJECT TO:"""), "green"))
 
     print(f"Current Folder: {currentDir}")
@@ -377,11 +365,9 @@ def create_project():
 
     2. Put your app customization/style inside the JSON style.json file.
     Read more here on how to use the custom widgets module 
-    https://github.com/KhamisiKibet/Qt-PyQt-PySide-Custom-Widgets
 
     3. Run the main.py file to view your app. Get more tutorials 
     here on how to create awsome Qt Apps with python 
-    https://www.youtube.com/spinnTv
 
     4. Your default app icons are located inside the qss/Icons folder.
 

@@ -1,6 +1,3 @@
-## SPINN DESIGN CODE
-# YOUTUBE: (SPINN TV) https://www.youtube.com/spinnTv
-# WEBSITE: spinncode.com
 import os
 import sys
 import __main__

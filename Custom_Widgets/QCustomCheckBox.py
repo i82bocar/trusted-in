@@ -1,8 +1,3 @@
-########################################################################
-## SPINN DESIGN CODE
-# YOUTUBE: (SPINN TV) https://www.youtube.com/spinnTv
-# WEBSITE: spinncode.com
-########################################################################
 from qtpy.QtCore import Qt, QEasingCurve, QPropertyAnimation, QSize, Property, QPoint, QEnum, QObject
 from qtpy.QtGui import QPalette, QIcon, QPaintEvent, QPainter, QColor
 from qtpy.QtWidgets import QCheckBox, QApplication, QLabel, QStyleOption, QStyle

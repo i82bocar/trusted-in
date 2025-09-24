@@ -1,11 +1,4 @@
-# ///////////////////////////////////////////////////////////////
-#
-# https://www.youtube.com/watch?v=daVpOpvsCKQ&t=20s
-# All rights reserved.
-#
-# ///////////////////////////////////////////////////////////////
-# Edits and improvements made by Khamisi Kibet
-# QT GUI BY SPINN TV(YOUTUBE)
+
 
 import math
 import time

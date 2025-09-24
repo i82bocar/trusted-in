@@ -1,7 +1,4 @@
-# coding:utf-8
-# Original code: https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/PySide6
-# Edits and improvements made by Khamisi Kibet
-# QT GUI BY SPINN TV(YOUTUBE)
+
 from math import floor
 import os
 

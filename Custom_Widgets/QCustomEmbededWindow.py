@@ -1,13 +1,3 @@
-########################################################################
-## SPINN DESIGN CODE
-# YOUTUBE: (SPINN TV) https://www.youtube.com/spinnTv
-# WEBSITE: spinncode.com
-########################################################################
-
-#                 qtpy Custom Widgets                #
-#                GPL 3.0 - Kadir Aksoy                #
-#   https://github.com/kadir014/pyqt5-custom-widgets  #
-
 import random
 from qtpy.QtCore import Qt, QRect, Signal, QEasingCurve, QPropertyAnimation, QSize
 from qtpy.QtWidgets import QWidget, QHBoxLayout, QVBoxLayout, QLabel, QGraphicsDropShadowEffect, QPushButton, QStyleOption, QStyle, QGraphicsOpacityEffect
