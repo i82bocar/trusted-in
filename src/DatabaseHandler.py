@@ -38,7 +38,7 @@ class DatabaseHandler(QObject):
         """
         super().__init__(parent)
         self.app_name = app_name
-        self.app_author = "Trustedin"
+        self.app_author = "Spinn"
         self.settings = QSettings()
         
         # Initialize without connecting to a specific DB yet
